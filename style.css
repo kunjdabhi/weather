@@ -54,7 +54,37 @@
 .wave {
     position: fixed;
     width: 100%;
-    margin-top: 0rem;
-    margin-left: 0rem;
     height: fit-content;
+}
+
+@media only screen and (max-width: 499px){
+    .location-data span {
+        font-size: 1rem;
+        margin-top: -1.7rem;
+        margin-left: 0;
+    }
+    .location-data{
+        margin-left: 2.3rem;
+    }
+
+    #current-location{
+        margin-left: 0.4rem;
+    }
+    #temprature{
+        position: absolute;
+        font-size: 2rem;
+        margin-top: 1.25rem;
+        margin-left: 2.7rem;
+        float: left;
+
+    }
+    
+    .main{
+        height: 80%;
+    }
+
+    .other-data{
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
 }
